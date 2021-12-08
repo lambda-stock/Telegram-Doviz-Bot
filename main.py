@@ -21,14 +21,14 @@ app = Client(
 )
 
 # Json ile veri cekiyoruz
-dovizjson = "https://api.genelpara.com/embed/doviz.json"
+dovizjson = "https://finans.truncgil.com/today.json"
 dovizcek = requests.get(dovizjson)
 dovizveri = json.loads(dovizcek.text)
 
 # Jsondan cekilen verileri degiskenlere atiyoruz
-dolar = dovizveri["USD"]["alis"]
-euro = dovizveri["EUR"]["alis"]
-sterlin = dovizveri["GBP"]["alis"]
+dolar = dovizveri["USD"]["Alış"]
+euro = dovizveri["EUR"]["Alış"]
+sterlin = dovizveri["GBP"]["Alış"]
 
 # Baslat komutunda atilacak mesaji ayarliyoruz
 @app.on_message(filters.command("start"))

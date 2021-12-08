@@ -18,7 +18,7 @@
         },
         "API_HASH": {
             "description": "https://my.telegram.org/apps"
-        },
+        }
     },
     "buildpacks": [
         {

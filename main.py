@@ -4,6 +4,7 @@ import json
 import pyrogram
 from pyrogram import Client
 from pyrogram import filters
+import os
 
 
 #load_dotenv(".env", override=True)

@@ -1,5 +1,5 @@
-# Telegram-Movie-Searcher
-A Movie info searcher Telegram Bot made with Pyrogram.
+# Telegram-Doviz-Bot
+Telegram Döviz Botu, Pyrogram ile yapıldı.
 -------------------------------
 ## Deploy 
 

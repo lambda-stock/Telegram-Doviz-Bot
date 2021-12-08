@@ -1,0 +1,3 @@
+Pyrogram==1.2.9
+requests==2.26.0
+TgCrypto

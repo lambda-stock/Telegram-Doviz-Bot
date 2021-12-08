@@ -1,0 +1,28 @@
+{
+    "name": "Telegram Doviz Botu",
+    "description": "Telegram icin bir doviz botu. Pyrogram ile yapildi.",
+    "repository": "https://github.com/lambda-stock/Telegram-Doviz-Bot",
+    "keywords": [
+        "movie",
+        "information",
+        "finder",
+        "pyrogram",
+        "telegram bot"
+    ],
+    "env": {
+        "BOT_TOKEN": {
+            "description": "@Botfather"
+        },
+        "API_ID": {
+            "description": "https://my.telegram.org/apps"
+        },
+        "API_HASH": {
+            "description": "https://my.telegram.org/apps"
+        },
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}

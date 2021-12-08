@@ -20,6 +20,11 @@ Telegram Döviz Botu, Pyrogram ile yapıldı.
 <br/>
 
 ```sh
+# Installing python3 and pip
+sudo apt install python3 python3-pip
+```
+  
+```sh
 git clone https://github.com/lambda-stock/Telegram-Doviz-Bot
 cd Telegram-Doviz-Bot
 pip3 install -r requirements.txt
